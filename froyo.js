@@ -1,11 +1,13 @@
-// Prompt the user for their froyo flavor(s) order separated by commas.
+// Prompt the user to enter froyo flavor(s) separated by commas
 const userInputFlavors = window.prompt("To order, enter froyo flavors separated by commas: ", "vanilla, strawberry");
 
-// Stores user's order to a variable
-const orderFlavors = userInputFlavors;
-console.log(orderFlavors);
+// Store users order to a variable
+const inputFlavors = userInputFlavors;
+console.log(inputFlavors);
 
-const froyoFlavors = {
+
+
+const froyo = {
   flavors: ["vanilla", "strawberry", "coffee", "chocolate", "caramel", "mint"]
 }
-console.log(froyoFlavors);
+console.log(froyo);
