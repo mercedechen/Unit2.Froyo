@@ -5,4 +5,7 @@ const userInputFlavors = window.prompt("To order, enter froyo flavors separated 
 const orderFlavors = userInputFlavors;
 console.log(orderFlavors);
 
-
+const froyoFlavors = {
+  flavors: ["vanilla", "strawberry", "coffee", "chocolate", "caramel", "mint"]
+}
+console.log(froyoFlavors);

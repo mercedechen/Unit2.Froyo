@@ -1,6 +1,7 @@
 Pseudocode for Your Fav Froyo Shop
 1. Prompt user to enter a list of comma-separated froyo flavors using window.prompt();
 2. User inputs "vanilla, vanilla, vanilla, strawberry, coffee, coffee"
-3. Create an object that lists the flavors
-4. Object should list how many of each flavor they have ordered
-5. Output should show 3 vanilla, 2 coffee and 1 strawberry froyo
+3. Save user input to a variable
+4. Create an object that lists the flavors
+5. Check object list for how many flavors user has ordered, reference to object values
+6. Output should show vanilla: 3, coffee: 2 and strawberry froyo: 1
