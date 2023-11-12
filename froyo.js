@@ -12,6 +12,7 @@ console.log(flavorsArray);
 
 // Track each amount of flavor in array
 function flavorsCount(items) {
+  // Object used to keep count of how many orders there are of each flavor?
   const flavors = {};
   for (let i = 0; i < items.length; i++) {
     if (flavors[items[i]]) {
@@ -23,22 +24,4 @@ function flavorsCount(items) {
   return flavors;
 }
 console.log(flavorsCount(flavorsArray));
-
-// function flavorsCount(items) {
-//   const flavors = {};
-//   for (let i = 0; i < items.length; i++) {
-//     if (flavors[items[i]]) {
-//       flavors[items[i]]++;
-//     } else {
-//       flavors[items[i]] = 1;
-//     }
-//   }
-//   return flavors;
-// }
-// console.log(flavorsCount(froyoFlavors));
-
-// const froyo = {
-//   flavors: ["vanilla", "strawberry", "coffee", "chocolate", "caramel", "mint"]
-// }
-// console.log(froyo);
 
