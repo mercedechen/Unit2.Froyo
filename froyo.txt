@@ -2,7 +2,6 @@ Pseudocode for Your Fav Froyo Shop
 1. Prompt user to enter a list of froyo flavors separated by commas using window.prompt();
 2. User input is "vanilla, vanilla, vanilla, strawberry, coffee, coffee"
 3. Save user input to a variable
-4. User input is saved as a string, convert to string to JavaScript objects
-5. Create an object that lists the available froyo flavors
-6. Check object list for each flavors the user has ordered, reference to object values
-7. Output vanilla: 3, coffee: 2 and strawberry froyo: 1 in the console
+4. User input is saved as a string, convert string to an array using split method
+5. Create a function that tracks the amount of each flavor in the array
+6. Output should be vanilla: 3, coffee: 2 and strawberry froyo: 1 in the console
