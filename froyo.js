@@ -1,6 +1,5 @@
 // Prompt the user to input froyo flavor(s) separated by commas, input is a string
 const userInputFlavors = window.prompt("To order, enter froyo flavors separated by commas: ", "vanilla, strawberry");
-console.log(userInputFlavors);
 
 // Store user input to a variable
 const userFroyoOrder = userInputFlavors;
