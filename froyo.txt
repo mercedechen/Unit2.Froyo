@@ -3,5 +3,5 @@ Pseudocode for Your Fav Froyo Shop
 2. User input is "vanilla, vanilla, vanilla, strawberry, coffee, coffee"
 3. Save user input to a variable
 4. User input is saved as a string, convert string to an array using split method
-5. Create a function that tracks the amount of each flavor in the array
+5. Create a function that tracks each amount of flavor in the array
 6. Output should be vanilla: 3, coffee: 2 and strawberry froyo: 1 in the console

@@ -10,6 +10,19 @@ console.log(userFroyoOrder);
 const flavorsArray = userFroyoOrder.split(', ');
 console.log(flavorsArray);
 
+// Track each amount of flavor in array
+function flavorsCount(items) {
+  const flavors = {};
+  for (let i = 0; i < items.length; i++) {
+    if (flavors[items[i]]) {
+      flavors[items[i]]++;
+    } else {
+      flavors[items[i]] = 1;
+    }
+  }
+  return flavors;
+}
+console.log(flavorsCount(flavorsArray));
 
 // function flavorsCount(items) {
 //   const flavors = {};
